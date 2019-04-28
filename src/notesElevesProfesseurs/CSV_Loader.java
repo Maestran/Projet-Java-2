@@ -1,4 +1,4 @@
-/*
+﻿/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -51,7 +51,7 @@ public class CSV_Loader
         {
             // Le chemin qui est validé car il existe dans l'ordinateur, devient accessible depuis n'importe quel fichier
             ELEVES_PATH = chemin;
-            Scanner scanner = new Scanner(new File(chemin));
+            Scanner scanner = new Scanner(new File(chemin),"UTF-8");
             boolean firstLineDone = false;
             while(scanner.hasNext()) // tant que le scanner parvient à lire des lignes
             {
@@ -140,7 +140,7 @@ public class CSV_Loader
         {
             // Le chemin qui est validé car il existe dans l'ordinateur, devient accessible depuis n'importe quel fichier
             EVALUATIONS_PATH = chemin;
-            Scanner scanner = new Scanner(new File(chemin));
+            Scanner scanner = new Scanner(new File(chemin),"UTF-8");
             ArrayList<Evaluation> evals = new ArrayList<>();
             Professeur nouveauProf = null;
             boolean firstLineChecked= false;
