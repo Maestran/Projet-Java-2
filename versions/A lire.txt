@@ -1,0 +1,10 @@
+Au niveau des .jar, nous avons eu des petits doutes quand au bon fonctionnement seul de ces fichiers,
+De plus notre projet étant sous Maven, nous avons essayer d'inclure les dépendances dans les .jar.
+
+Vous avez donc accès à toutes les sources dans le fichier src/
+De plus, voici les class main pour chacune des versions :
+
+Pour la version 1 : test.Version1.java
+Pour la version 2 : notesElevesProfesseurs.Main.java
+Pour la version 3 : graphique.GraphiqueTest.java
+Pour la version 4 : GUI.MenuPrincipal.java
